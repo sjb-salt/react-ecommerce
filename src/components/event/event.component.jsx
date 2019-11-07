@@ -32,8 +32,8 @@ class Event extends React.Component {
         createeventinput: this.state
       }
 
-      await events.register(name, email, mobile);
-      // this.props.onAdd(input);
+      //await events.register(name, email, mobile);
+      this.props.onAdd(input);
 
       this.setState({
         name: '',

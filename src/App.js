@@ -38,10 +38,10 @@ class App extends React.Component {
 }
 
 const client = new AWSAppSyncClient({
-  url: 'URL',
-  region: 'REGION',
+  url: 'https://tstdw46zuzdd3lhed7wm6xrvfu.appsync-api.ap-northeast-2.amazonaws.com/graphql',
+  region: 'ap-northeast-2',
   auth: {
-    type: 'API_KEY',
+    type: 'da2-ae2pqs2bxffqjpnelvyhl5y6fy',
     apiKey: 'KEY',
   }
 })
